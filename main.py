@@ -8,9 +8,7 @@ from docx import Document
 from io import BytesIO
 import base64
 
-import pysqlite3
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 
 load_dotenv()
 

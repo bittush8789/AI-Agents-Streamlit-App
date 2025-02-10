@@ -1,7 +1,9 @@
 streamlit 
-crewai 
-crewai_tools
 python-dotenv 
 langchain_openai
 langchain_community
 python-docx
+pysqlite3-binary
+
+crewai==0.30.11
+crewai-tools==0.2.6
